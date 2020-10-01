@@ -6,7 +6,7 @@ Caro(o) candidato(a). Queremos ter certeza que o seu perfil é exatamente aquele
 ## Instruções gerais
  - O tempo estimado para completar este projeto é de 8 horas. Será dado um prazo de até 3 dias para completá-lo.
  - Faça um fork deste repositório no GitHub. Sugerimos que a visibilidade seja definida como privada, para que outros candidatos não tenham acesso aos seus insights.
- - Ao final, envie um e-mail para desenvolvimento@virtuamax.com.br com o link para o repositório (conceda acesso de leitura ao usuário desenvolvimento@virtuamax.com.br).
+ - Ao final, envie um e-mail para desenvolvimento@virtuamax.com.br com o link para o repositório (conceda acesso de leitura ao usuário desenvolvimento@virtuamax.com.br) com o seu nome completo.
  - Qualquer dúvida entre em contato através do endereço de e-mail desenvolvimento@virtuamax.com.br.
 
 ## Escopo do Projeto
