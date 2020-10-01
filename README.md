@@ -1,4 +1,7 @@
+<p align="center"><img src="https://virtuamax.com.br/images/logo.jpg"></p>
+
 # Teste para Dev Laravel
+Caro(o) candidato(a). Queremos ter certeza que o seu perfil é exatamente aquele que procuramos. Para isso gostariamos de verificar suas habilidades através deste teste, onde você  irá desenvolver um pequeno projeto fictício o qual é uma demonstração de módulos e funcionalidades dos sistemas desenvolvidos por nossa empresa.
 
 ## Requisitos
  - Utilizar Laravel 7.x, MySQL e Vue.js
