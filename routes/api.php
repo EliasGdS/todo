@@ -18,6 +18,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Auth::routes();
+Route::post('auth', 'Auth\AuthApiController@authenticate');
+Route::get('me', 'Auth\AuthApiController@authenticatedUser');
 
 Route::apiResource('tasks', 'TodoController');
