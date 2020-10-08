@@ -55783,8 +55783,8 @@ var store = new vuex__WEBPACK_IMPORTED_MODULE_1__["default"].Store({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/wace/Documentos/personal-projects/teste-dev-laravel/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/wace/Documentos/personal-projects/teste-dev-laravel/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/wace/Documentos/personal-projects/todo-multi-tenancy/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/wace/Documentos/personal-projects/todo-multi-tenancy/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

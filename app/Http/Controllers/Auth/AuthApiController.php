@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Auth;
 
+use Illuminate\Database\Eloquent\Model;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use JWTAuth;
@@ -48,7 +49,11 @@ class AuthApiController extends Controller
             return response()->json(['token_absent'], $e->getStatusCode());
         }
 
+        $tasks = $user->tasks;
+
+        // $tasks = Model::where('tenant_id', $tenant)->get();
+
         // the token is valid and we have found the user via the sub claim
-        return response()->json(compact('user'));
+        return response()->json(compact('user', 'tasks'));
     }
 }
