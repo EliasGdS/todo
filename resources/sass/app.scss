@@ -1,1 +1,105 @@
-//
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #6272a4;
+}
+
+.card {
+    background-color: #f8f8f2;
+}
+
+.card-header  {
+    background-color: #282a36;
+    font-size: 12pt;
+}
+
+.btn-custom {
+    background-color: #50fa7b;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-custom:hover {
+    background-color: #4ed36f;
+}
+
+.btn-link {
+    color: #ff4bb1;
+}
+
+.size-90{
+    width: 90%;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    right: 10px;
+    top: 18px;
+}
+
+.top-left {
+    left: 10px;
+    top: 18px;
+}
+
+.head {
+    background-color: #282a36;
+    min-height: 8vh;
+    margin-bottom: 5vh;
+    box-shadow: 0 0 2em #282a36;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links>a {
+    color: #f8f8f2;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.links>a:hover {
+    color: #ff79c6;
+}
+
+.text-logo>h2 {
+    color:#8be9fd;
+    padding: 0 25px;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15pt;
+    margin: 0;
+}
