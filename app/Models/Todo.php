@@ -18,7 +18,7 @@ class Todo extends Model
 
         static::observe(new TenantObserver);
     }
-
+    
     public function rules()
     {
         return [

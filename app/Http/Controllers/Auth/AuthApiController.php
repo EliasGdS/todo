@@ -49,11 +49,7 @@ class AuthApiController extends Controller
             return response()->json(['token_absent'], $e->getStatusCode());
         }
 
-        $tasks = $user->tasks;
-
-        // $tasks = Model::where('tenant_id', $tenant)->get();
-
-        // the token is valid and we have found the user via the sub claim
+        $tasks = JWTAuth::parseToken()->authenticate()->tasks;
         return response()->json(compact('user', 'tasks'));
     }
 }
